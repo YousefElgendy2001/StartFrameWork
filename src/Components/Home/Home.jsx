@@ -1,5 +1,5 @@
 import React from "react";
-import hero from "../../assets/images/hero.svg";
+
 export default function Home() {
   return (
     <div id="home">
@@ -8,7 +8,7 @@ export default function Home() {
           
           <div className="parent flex-column d-flex justify-content-center align-items-center text-white  vh-100">
           <div className="imageHome text-center mb-5">
-            <img src={hero} alt="portHome" className="imageChild" />
+            <img src="/images/hero.svg" alt="portHome" className="imageChild" />
           </div>
 
             <div className="textHome text-center text-uppercase ">

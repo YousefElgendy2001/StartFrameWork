@@ -1,7 +1,5 @@
 import React from "react";
-import portHome from "../../assets/images/portHome.png";
-import portCake from "../../assets/images/portCake.png";
-import portCircs from "../../assets/images/portCircs.png";
+
 export default function Portfolio() {
   return (
     <div>
@@ -19,32 +17,32 @@ export default function Portfolio() {
             <div className="row g-5">
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portHome} alt="portHome" className="itemImage    " />
+                  <img src="/images/portHome.png" alt="portHome" className="itemImage    " />
                 </div>
               </div>
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portCake} alt="portCake" className="itemImage  " />
+                  <img src="/images/portCake.png" alt="portCake" className="itemImage  " />
                 </div>
               </div>
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portCircs} alt="portCircs" className="itemImage  " />
+                  <img src="/images/portCircs.png" alt="portCircs" className="itemImage  " />
                 </div>
               </div>
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portHome} alt="portHome" className="itemImage  " />
+                  <img src="/images/portHome.png" alt="portHome" className="itemImage  " />
                 </div>
               </div>
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portCake} alt="portCake" className="itemImage  " />
+                  <img src="/images/portCake.png" alt="portCake" className="itemImage  " />
                 </div>
               </div>
               <div className="col-md-4 ">
                 <div className="image rounded-3 overflow-hidden ">
-                  <img src={portCircs} alt="portCircs" className="itemImage  " />
+                  <img src="/images/portCircs.png" alt="portCircs" className="itemImage  " />
                 </div>
               </div>
             </div>
